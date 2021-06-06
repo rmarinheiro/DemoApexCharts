@@ -25,7 +25,7 @@ npm install apexcharts --save
 
 ## Referencias
 
-Foi utilizado para a construção da demo a documentação da lib(https://apexcharts.com/)
+Foi utilizado para a construção da demo a documentação da lib(https://apexcharts.com)
 
 
 
