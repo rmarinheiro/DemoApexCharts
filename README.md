@@ -4,6 +4,8 @@
 
 -A API em questão retorna uma lista com 3 parametros(sellerName,visited,details), mas para a demonstração iremos somente utilizar os 2 primeiros parametros
 
+-Para esta demo utilizei o grafico de barras(porém caso queira você pode customizar seus graficos utilizando outros formatos)
+
 ## Uso da Lib ApexCharts
 
 Pré Requisitos:
@@ -25,7 +27,14 @@ npm install apexcharts --save
 
 ## Referencias
 
-Foi utilizado para a construção da demo a documentação da lib(https://apexcharts.com)
+-Foi utilizado para a construção da demo além da documentação da lib(https://apexcharts.com), 
+
+também foi utilizado este site(https://codesandbox.io/examples/package/ng-apexcharts)
+
+
+
+
+
 
 
 
