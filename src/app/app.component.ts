@@ -48,7 +48,7 @@ export class AppComponent implements OnInit {
           this.data.push(x.visited)
         });
         console.log(res)
-        this.inicializaCharts(this.label);
+        this.inicializaCharts();
       }
     )
 
@@ -59,7 +59,7 @@ export class AppComponent implements OnInit {
 
   }
 
-  public inicializaCharts(nomes: string[]) {
+  public inicializaCharts() {
     this.title = {
       text: 'Total de Visitas Por Vendedor'
     };
@@ -74,7 +74,7 @@ export class AppComponent implements OnInit {
     };
     
     this.xaxis = {
-      categories: nomes,
+      categories: this.label,
     }
 
     this.plotOptions = {
